@@ -29,8 +29,6 @@ npm install
 * `dist/how-long-till-lunch.umd.js`
     a UMD build, suitable for use in any environment (including the browser, as a `<script>` tag), that includes the external dependency. This corresponds to the `"browser"` field in package.json
 
-`npm run dev` builds the library, then keeps rebuilding it whenever the source files change using [rollup-watch](https://github.com/rollup/rollup-watch).
-
 `npm test` builds the library, then tests it.
 
 ## Variations
